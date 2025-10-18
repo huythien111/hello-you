@@ -3,7 +3,7 @@ hello-you
 <html lang="vi">
 <head>
   <meta charset="UTF-8">
-  <title>Muốn tặng quà 20/10 không?</title>
+  <title>chúc 20/10 vui vẻ</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -61,11 +61,11 @@ hello-you
   </style>
 </head>
 <body>
-  <h1>Muốn tặng quà 20/10 không?</h1>
+  <h1>m hãy chọn 1 trong 2</h1>
 
   <div class="buttons">
-    <button class="yes" onclick="showImage('yes')">Có</button>
-    <button class="no" onclick="showImage('no')">Không</button>
+    <button class="yes" onclick="showImage('yes')">trái</button>
+    <button class="no" onclick="showImage('no')">phải</button>
   </div>
 
   <div class="image-container" id="imageBox">
@@ -83,10 +83,10 @@ hello-you
 
       if (choice === 'yes') {
         giftImage.src = "https://imgur.com/gallery/need-this-VYptNUe#/t/bouquet"; // ảnh quà
-        messageText.textContent = "Ok mà, muốn xem này không? 🎁";
+        messageText.textContent = "chúc mừng vào ô 10 bông hoa 🎁";
       } else {
         giftImage.src = "https://imgur.com/gallery/i-like-cats-Ck2CStP#/t/catmemes"; // ảnh meme
-        messageText.textContent = "Giỡn thôi, t vẫn tặng 😆";
+        messageText.textContent = "quà giống trái và t thích m";
       }
     }
   </script>
